@@ -144,3 +144,27 @@ $('.our-top').owlCarousel({
       }
   }
   })
+
+
+// //   home triangle
+
+// const cover = document.getElementById('cover');
+// const tri1 = document.querySelector('.tri1');
+// const tri2 = document.querySelector('.tri2');
+
+// cover.addEventListener('mousemove', (e) => {
+//     const { clientX, clientY } = e; // Get mouse position
+//     const { width, height, left, top } = cover.getBoundingClientRect();
+
+//     // Normalize mouse coordinates within #cover
+//     const x = (clientX - left) / width;
+//     const y = (clientY - top) / height;
+
+//     // Calculate movement offset
+//     const offsetX = (x - 0.5) * 20; // Scale the movement
+//     const offsetY = (y - 0.5) * 20;
+
+//     // Apply transformations to triangles
+//     tri1.style.transform = translate(${offsetX}px, ${offsetY}px);
+//     tri2.style.transform = translate(${-offsetX}px, ${-offsetY}px) rotate(180deg);
+// });
